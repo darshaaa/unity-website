@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import HomeHero from "../websitePages/homehero";
-import contact from "../websitePages/contact"
+import Contact from "../websitePages/contact"
 
 const MainRouter = () => {
   return (
@@ -8,7 +8,7 @@ const MainRouter = () => {
       <Routes>
         {/* Main Pages */}
         <Route path="/" element={<HomeHero />} />
-        <Route path="/contact" element={<contact />} />
+        <Route path="/contact" element={<Contact />} />
 
         {/* About Section
         <Route path="/about/overview" element={<About />} />
