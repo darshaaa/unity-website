@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from '../../src/components/navbar'; 
-import Footer from '../../src/components/footer';
+import Navbar from '../components/navbar'; 
+import Footer from '../components/footer';
 // 1. IMPORT YOUR NEW CONTENT COMPONENT
-import HomeContent from './HomeContent'; 
-import QuickLinksSection from './QuickLinksSection';
-import HomeSections from './HomeSections';
+import HomeContent from './homeContent'; 
+import QuickLinksSection from './quickLinksSection';
+import HomeSections from './homeSections';
 
 const HomeHero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

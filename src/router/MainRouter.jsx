@@ -1,9 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-import HomeHero from "../../public/websitePages/homehero";
-import Contact from "../../public/websitePages/contact";
-
+import HomeHero from "../websitePages/homehero";
+import Contact from "../websitePages/Contact";
 
 
 const MainRouter = () => {
