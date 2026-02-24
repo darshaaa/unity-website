@@ -3,7 +3,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 // 1. IMPORT YOUR NEW CONTENT COMPONENT
 import HomeContent from './homeContent'; 
-import QuickLinksSection from './quickLinksSection';
+import QuickLinksSection from './recenyactivites';
 import HomeSections from './homeSections';
 
 const HomeHero = () => {

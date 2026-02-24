@@ -21,14 +21,14 @@ const Navbar = () => {
       name: "ABOUT US",
       hasDropdown: true,
       subItems: [
-        { label: "OVERVIEW", link: "/about/overview" },
-        { label: "OUR MISSION", link: "/about/mission" },
-        { label: "OUR VISION", link: "/about/vision" },
-        { label: "Unity SOCIETY", link: "/about/society" },
-        { label: "MESSAGE FROM PRO-VICE CHAIRMAN", link: "/about/vc-message" },
-        { label: "MESSAGE FROM PRINCIPAL", link: "/about/principal-message" },
-        { label: "QUICK FACTS", link: "/about/facts" },
-        { label: "FAQS", link: "/about/faqs" },
+        { label: "OVERVIEW", link: "/aboutus/overview" },
+        { label: "OUR MISSION", link: "/aboutus/mission" },
+        { label: "OUR VISION", link: "/aboutus/vision" },
+        { label: "Unity SOCIETY", link: "/aboutus/society" },
+        { label: "MESSAGE FROM PRO-VICE CHAIRMAN", link: "/aboutus/vcmessage" },
+        { label: "MESSAGE FROM PRINCIPAL", link: "/aboutus/principalmessage" },
+        { label: "QUICK FACTS", link: "/aboutus/facts" },
+        { label: "FAQS", link: "/aboutus/faqs" },
       ],
     },
     {
@@ -44,7 +44,7 @@ const Navbar = () => {
       name: "ACADEMICS",
       hasDropdown: true,
       subItems: [
-        { label: "OVERVIEW", link: "/academics/overview" },
+        { label: "OVERVIEW", link: "/academics/overviewpage" },
         { label: "COMPREHENSIVE CURRICULUM", link: "/academics/curriculum" },
         {
           label: "EARLY YEARS",
@@ -69,7 +69,6 @@ const Navbar = () => {
           link: "/academics/teacher-training",
         },
         { label: "ACADEMIC CALENDAR", link: "/academics/calendar" },
-        { label: "ANNUAL REPORT", link: "/academics/report" },
       ],
     },
     {
@@ -77,14 +76,11 @@ const Navbar = () => {
       hasDropdown: true,
       subItems: [
         { label: "CAMPUS OVERVIEW", link: "/infrastructure/campus" },
-        { label: "MULTIPURPOSE HALL", link: "/infrastructure/hall" },
+        { label: "PLAY GROUND", link: "/infrastructure/ground" },
         { label: "CLASSROOMS", link: "/infrastructure/classrooms" },
         { label: "LIBRARY", link: "/infrastructure/library" },
-        { label: "INFORMATION TECHNOLOGY", link: "/infrastructure/it" },
-        {
-          label: "INNOVATION LAB",
-          link: "/infrastructure/robotics",
-        },
+        { label: "INFORMATION TECHNOLOGY", link: "/infrastructure/information" },
+    
       ],
     },
     {
@@ -92,7 +88,6 @@ const Navbar = () => {
       hasDropdown: true,
       subItems: [
         { label: "TRANSPORTATION", link: "/facilities/transport" },
-        { label: "SICK BAY", link: "/facilities/sick-bay" },
         { label: "SECURITY & SAFETY", link: "/facilities/security" },
       ],
     },
@@ -100,10 +95,9 @@ const Navbar = () => {
       name: "SPORTS",
       hasDropdown: true,
       subItems: [
-        { label: "CURRICULUM", link: "/sports/curriculum" },
         { label: "WIDE RANGE OF SPORTS", link: "/sports/range" },
         { label: "FACILITIES", link: "/sports/facilities" },
-        { label: "PLAY GROUND", link: "/sports/ground" },
+        { label: "PLAY GROUND", link: "/sports/playground" },
       ],
     },
     // { name: "BLOG", hasDropdown: false, href: "/blog" },
